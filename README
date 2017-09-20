@@ -1,0 +1,16 @@
+Run the following commands to get set up:
+
+OPTIONAL ----------------------
+You can download these libraries in a virtual enviornment, so the libraries are not installed globally: 
+$ virtualenv [whatever-name-you-choose]
+$ cd [whatever-name-you-choose]
+$ source bin/activate
+
+Run the required libraries.
+$ pip install -r requirements.txt
+
+To run the program:
+python count.py [optional one-word search param]
+
+The program defaults to cats if no word is passed in. It will Google Image Search for the passed-in word and return 20 images, stored in a directory of the argument's name. 
+
